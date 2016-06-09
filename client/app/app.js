@@ -1,4 +1,9 @@
-angular.module('SystemPerfApp', [
-    'ui.router',
-    'SystemPerfApp.Main'
-]);
+'use strict';
+(function (angular) {
+
+    angular.module('SystemPerfApp', [
+        'SystemPerfApp.Modules'
+    ]);
+
+})
+(angular);
